@@ -1,0 +1,31 @@
+<html>
+<head></head>
+<title>Student Resume</title>
+<body>
+<form action = '/create_resume/' method = 'post'>
+{% csrf-token %}
+<input type = 'text' name = 'name' placeholder = 'Name'>
+<input type = 'text' name = 'designation' placeholder = 'Designation'>
+<input type = 'email' name = 'email' placeholder = 'Email Id'>
+<input type = 'number' name = 'contact_no' placeholder = 'Contact_No'>
+<input type = 'text' name = 'experience' placeholder = 'Expertise and Experience'>
+<input type = 'text' name = 'professional_experience' placeholder = 'Professional Experience'>
+<input type = 'text' name = 'education_details' placeholder = 'Education Details'>
+<input type = 'text' name = 'technical_skills' placeholder = 'Technical Skills'>
+<input type = 'text' name = 'frameworks' placeholder = 'Frameworks'>
+<input type = 'text' name = 'databases' placeholder = 'Databases'>
+<input type = 'text' name = 'operationg_system' placeholder = 'Operating System'>
+<input type = 'text' name = 'project_title' placeholder = 'Project Title'>
+<input type = 'text' name = 'client' placeholder = 'Client'>
+<input type = 'text' name = 'role' placeholder = 'Role'>
+<input type = 'text' name = 'environment' placeholder = 'Environment'>
+<input type = 'text' name = 'responsibilities' placeholder = 'Responsibilities'>
+<input type = 'date' name = 'date_of_birth' placeholder = 'Date Of Birth'>
+<input type = 'text' name = 'languages' placeholder = 'Languages'>
+<input type = 'radio' name = 'status' value = 'single' placeholder = 'Name'>
+<input type = 'radio' name = 'status' value = 'married' placeholder = 'Name'>
+<input type = 'text' name = 'declaration' placeholder = 'Declaration'>
+<button type = 'submit'>Create Resume</button>
+</form>
+</body>
+</html>
